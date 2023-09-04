@@ -23,7 +23,11 @@ const phrases = [
     'SPEAR PHISHING',
     'STRONG PASSWORDS',
     'CLICKBAIT',
-    'BAD LINKS'
+    'BAD LINKS',
+    'HACKER',
+    'LAST LINE OF DEFENSE',
+    'PHISH ALERT BUTTON',
+    'RED FLAGS'
 ]
 
 //==============================================================================================================================
