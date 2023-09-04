@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Security Awareness Word Guess</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="overlaystart" class="overlay">
+        <img class="over-img" src="./images/introscreen.png">
+        <h2 class="title">Security Awareness Word Guess</h2>
+        <a class="btn" id="start">Start Game</a>
+      </div>
+      <div id="overlaywin" class="overlay win" style="display: none">
+        <img class="overend-img" src="./images/win.png">
+        <h2 class="title">You've Won!</h2>
+        <a class="btnreset">Reset Game</a>
+      </div>
+      <div id="overlaylose" class="overlay lose" style="display: none">
+        <img class="overend-img" src="./images/lose.png">
+        <h2 class="title">Oops, you didn't quite make it!</h2>
+        <p id="correctPhrase"></p>
+        <a class="btnreset">Reset Game</a>
+      </div>
+      <div id="banner" class="section">
+        <h2 class="header">Security Awareness Word Guess</h2>
+      </div>
+
+      <div id="phrase" class="section">
+        <ul>
+        </ul>
+      </div>
+      <div id="qwerty" class="section">
+        <div class="keyrow">
+          <button>Q</button><button>W</button><button>E</button><button>R</button><button>T</button><button>Y</button><button>U</button><button>I</button><button>O</button><button>P</button>
+        </div>
+        <div class="keyrow">
+          <button>A</button><button>S</button><button>D</button><button>F</button><button>G</button><button>H</button><button>J</button><button>K</button><button>L</button>
+        </div>
+        <div class="keyrow">
+          <button>Z</button><button>X</button><button>C</button><button>V</button><button>B</button><button>N</button><button>M</button>
+        </div>
+      </div>
+
+      <div id="scoreboard" class="section">
+        <ol>
+          <li class="tries"><img src="images/liveHeart.png" height="35px" width="30px"></li>
+          <li class="tries"><img src="images/liveHeart.png" height="35px" width="30px"></li>
+          <li class="tries"><img src="images/liveHeart.png" height="35px" width="30px"></li>
+          <li class="tries"><img src="images/liveHeart.png" height="35px" width="30px"></li>
+          <li class="tries"><img src="images/liveHeart.png" height="35px" width="30px"></li>
+        </ol>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
